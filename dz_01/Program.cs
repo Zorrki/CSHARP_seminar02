@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число:");
+﻿// Задача 1: Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+Console.WriteLine("Введите число:");
 int numInput = Convert.ToInt32(Console.ReadLine());
 if (numInput % 7 == 0 && numInput % 23 == 0)
 {
